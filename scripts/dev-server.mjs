@@ -25,4 +25,4 @@ http.createServer((req, res) => {
   }
   res.setHeader('Content-Type', types[path.extname(file)] || 'application/octet-stream');
   fs.createReadStream(file).pipe(res);
-}).listen(port, () => console.log(`Costumes N More preview: http://localhost:${port}`));
+}).listen(port, () => console.log(`VELVET HOWL preview: http://localhost:${port}`));

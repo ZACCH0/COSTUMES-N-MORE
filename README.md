@@ -1,12 +1,12 @@
-# COSTUMES N MORE
+# VELVET HOWL
 
-Custom fursuits, fursona design, and avatars for VRChat and VTubing — made to order by Costumes N More.
+Custom fursuits, fursona design, and avatars for VRChat and VTubing — made to order by Dimeji.
 
-Live site: rebrand in progress — not yet redeployed. Previous live site: https://velvet-howl.vercel.app/
+Live site: https://velvet-howl.vercel.app/
 
 ## About the business
 
-Every character has a story. Costumes N More brings yours to life — custom fursuits, fursona designs, and virtual avatars, each one built around your vision, your style, and the personality you want to share with the world. No two characters are exactly alike, and that is what makes each commission exciting.
+Every character has a story. VELVET HOWL brings yours to life — custom fursuits, fursona designs, and virtual avatars, each one built around your vision, your style, and the personality you want to share with the world. No two characters are exactly alike, and that is what makes each commission exciting.
 
 **Services**
 - Fursuit making — Head Only (from $1,500), Mini Partial (from $2,700), Partial (from $5,000), Full Suit (from $7,000)
@@ -21,9 +21,9 @@ Every character has a story. Costumes N More brings yours to life — custom fur
 - Full details are on the Terms page — please read it before commissioning.
 
 **Contact**
-- Instagram: https://www.instagram.com/costumesandmorefursuits
-- Email: tobiloba3214@gmail.com
-- Discord / Telegram: pending from the owner (previous handles removed in the rebrand)
+- Commission form: https://velvet-howl.vercel.app/contact
+- Discord: `horla_dimeji`
+- Telegram: `horlah_dimehji` — https://t.me/horlah_dimehji
 
 ## About this repo (for collaborators)
 

@@ -7,8 +7,5 @@
     "dev": "node scripts/build.mjs && node scripts/dev-server.mjs",
     "test": "node scripts/test-commission.mjs",
     "qa": "node scripts/qa-check.mjs"
-  },
-  "dependencies": {
-    "sharp": "^0.35.5"
   }
 }

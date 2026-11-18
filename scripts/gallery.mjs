@@ -3,6 +3,9 @@ export const categories = [
   { id: 'all', label: 'All' },
   { id: 'head', label: 'Heads' },
   { id: 'partial', label: 'Partials' },
+  { id: 'full', label: 'Full Suits' },
+  { id: 'furry', label: 'Fursona Art' },
+  { id: 'avatar', label: 'Avatars' },
   { id: 'wip', label: 'Work in Progress' },
 ];
 
