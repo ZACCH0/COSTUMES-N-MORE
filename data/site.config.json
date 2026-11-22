@@ -1,21 +1,14 @@
 {
-  "siteName": "VELVET HOWL",
+  "siteName": "COSTUMES N MORE",
   "domain": "https://velvet-howl.vercel.app",
   "domainNote": "[CANONICAL_DOMAIN] placeholder: using velvet-howl.vercel.app until a custom domain exists",
   "socials": [
     {
-      "id": "discord",
-      "label": "Discord",
-      "user": "horla_dimeji",
-      "url": "https://discord.com/app",
-      "open": "Open Discord"
-    },
-    {
-      "id": "telegram",
-      "label": "Telegram",
-      "user": "horlah_dimehji",
-      "url": "https://t.me/horlah_dimehji",
-      "open": "Open Telegram"
+      "id": "instagram",
+      "label": "Instagram",
+      "user": "@costumesandmorefursuits",
+      "url": "https://www.instagram.com/costumesandmorefursuits",
+      "open": "Open Instagram"
     },
     {
       "id": "email",
@@ -26,14 +19,20 @@
     }
   ],
   "email": {
-    "user": "abdullahkolawole48",
+    "user": "tobiloba3214",
     "domain": "gmail.com"
   },
   "forms": {
     "provider": "web3forms",
     "accessKey": "a9ceb217-09b0-40af-b36a-4fbf01c775ed",
-    "recipient": "abdullahkolawole48@gmail.com",
-    "recipientNote": "Create the Web3Forms access key while signed in with this Gmail address, then paste the key into accessKey above."
+    "recipient": "tobiloba3214@gmail.com",
+    "recipientNote": "Create a NEW Web3Forms access key while signed in with this Gmail address, then paste the key into accessKey above. The current accessKey belongs to the previous owner's account until then."
+  },
+  "status": {
+    "commissions": "closed",
+    "openLabel": "Commissions open — request a quote",
+    "closedLabel": "Commissions currently closed",
+    "note": "Set commissions to \"open\" here and the banner + hero badge flip and the contact form re-enables automatically on rebuild. Currently closed because the Web3Forms access key still belongs to the previous owner's account."
   },
   "nav": [
     {
@@ -60,6 +59,11 @@
       "href": "/contact",
       "label": "Contact",
       "key": "contact"
+    },
+    {
+      "href": "/faq",
+      "label": "FAQ",
+      "key": "faq"
     },
     {
       "href": "/terms",

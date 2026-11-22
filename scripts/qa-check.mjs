@@ -70,7 +70,8 @@ const pages = fs.readdirSync(D).filter((f) => f.endsWith('.html'));
 {
   const sm = fs.readFileSync(path.join(D, 'sitemap.xml'), 'utf8');
   const urls = [...sm.matchAll(/<loc>(.+?)<\/loc>/g)].map((m) => m[1]);
-  urls.length === 6 ? ok('sitemap has all 6 URLs') : fail('sitemap has ' + urls.length + ' URLs');
+  const indexable = pages.filter((f) => !fs.readFileSync(path.join(D, f), 'utf8').includes('noindex'));
+  urls.length === indexable.length ? ok('sitemap has all ' + indexable.length + ' indexable URLs') : fail('sitemap has ' + urls.length + ' URLs, expected ' + indexable.length);
   const robots = fs.readFileSync(path.join(D, 'robots.txt'), 'utf8');
   robots.includes('/sitemap.xml') ? ok('robots references sitemap') : fail('robots missing sitemap');
 }

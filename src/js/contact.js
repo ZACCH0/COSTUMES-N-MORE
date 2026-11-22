@@ -116,7 +116,7 @@
     var payload = new FormData();
     payload.append('access_key', form.elements.access_key.value);
     payload.append('subject', 'New commission application: ' + serviceLabel() + ' from ' + data.name);
-    payload.append('from_name', 'VELVET HOWL Commission Form');
+    payload.append('from_name', 'Costumes N More Commission Form');
     payload.append('name', data.name);
     payload.append('email', data.email);
     payload.append('discord', data.discord);
@@ -141,14 +141,15 @@
   // The free Web3Forms plan does not send an automatic confirmation email to the
   // applicant, so success only ever claims that the application was received.
   function showSuccess() {
-    success.querySelector('.success-message').textContent = 'Your commission application has been submitted successfully. VELVET HOWL will review it and get back to you.';
+    success.querySelector('.success-message').textContent = 'Your commission application has been submitted successfully. Costumes N More will review it and get back to you.';
     form.hidden = true;
     success.hidden = false;
     success.focus();
+    if (window.spawnConfetti) window.spawnConfetti();
   }
 
   function showFailure(message) {
-    setStatus(message || 'Something went wrong while submitting your application. Please try again or contact VELVET HOWL directly.', 'error');
+    setStatus(message || 'Something went wrong while submitting your application. Please try again or contact Costumes N More directly.', 'error');
     status.focus();
   }
 
