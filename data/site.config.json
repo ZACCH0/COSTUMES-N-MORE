@@ -24,15 +24,15 @@
   },
   "forms": {
     "provider": "web3forms",
-    "accessKey": "a9ceb217-09b0-40af-b36a-4fbf01c775ed",
+    "accessKey": "WEB3FORMS_ACCESS_KEY",
     "recipient": "tobiloba3214@gmail.com",
-    "recipientNote": "Create a NEW Web3Forms access key while signed in with this Gmail address, then paste the key into accessKey above. The current accessKey belongs to the previous owner's account until then."
+    "recipientNote": "Create a NEW Web3Forms access key while signed in as tobiloba3214@gmail.com, paste it into accessKey, set status.commissions to \"open\", rebuild and deploy. The form stays hidden until then."
   },
   "status": {
     "commissions": "closed",
     "openLabel": "Commissions open — request a quote",
     "closedLabel": "Commissions currently closed",
-    "note": "Set commissions to \"open\" here and the banner + hero badge flip and the contact form re-enables automatically on rebuild. Currently closed because the Web3Forms access key still belongs to the previous owner's account."
+    "note": "Closed until a new Web3Forms access key is created under tobiloba3214@gmail.com. Then set this to \"open\" and the banner, hero badge and contact form re-enable automatically on rebuild."
   },
   "nav": [
     {
