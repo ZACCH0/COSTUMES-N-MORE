@@ -54,7 +54,8 @@ node scripts/qa-check.mjs       # links, assets, SEO and gallery consistency
 
 **Commission form (Web3Forms)**
 - The form posts to `https://api.web3forms.com/submit`. Applications go to the owner's Gmail; replying answers the applicant (their email is the Reply-To).
-- The form is currently **closed** and hidden because `forms.accessKey` is the `WEB3FORMS_ACCESS_KEY` placeholder. Create a new key while signed in as tobiloba3214@gmail.com, paste it into `data/site.config.json`, set `status.commissions` to `"open"`, rebuild and deploy, then send a test application.
+- The access key lives in `data/site.config.json` as `forms.accessKey` and is supplied by the owner. To rotate it: create a new key, paste it in, rebuild, redeploy, then send a test application.
+- To pause commissions: set `status.commissions` to `"closed"` and rebuild — the banner, hero badge and contact form all flip together.
 - Free plan: 250 submissions/month, no file attachments (references go through links), no automatic confirmation email to applicants.
 
 **Deploy**
