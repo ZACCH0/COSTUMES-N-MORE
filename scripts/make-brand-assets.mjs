@@ -62,10 +62,4 @@ const icon = Buffer.from(iconSvg);
 await sharp(icon).resize(48, 48).png().toFile(path.join(OUT, 'favicon.png'));
 await sharp(icon).resize(180, 180).png().toFile(path.join(OUT, 'apple-touch-icon.png'));
 
-// The old FLORAL VOID logo is no longer part of this site.
-const oldLogo = path.join(OUT, 'images/brand/Floral void.png');
-if (fs.existsSync(oldLogo)) fs.rmSync(oldLogo);
-const oldLogoDir = path.join(OUT, 'images/brand');
-if (fs.existsSync(oldLogoDir) && fs.readdirSync(oldLogoDir).length === 0) fs.rmdirSync(oldLogoDir);
-
-console.log('Wrote og-image.jpg, favicon.png and apple-touch-icon.png; removed the old FLORAL VOID logo.');
+console.log('Wrote og-image.jpg, favicon.png and apple-touch-icon.png.');
