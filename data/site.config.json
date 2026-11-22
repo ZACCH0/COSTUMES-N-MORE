@@ -1,7 +1,7 @@
 {
   "siteName": "COSTUMES N MORE",
-  "domain": "https://velvet-howl.vercel.app",
-  "domainNote": "[CANONICAL_DOMAIN] placeholder: using velvet-howl.vercel.app until a custom domain exists",
+  "domain": "https://costumesandmorefursuits.vercel.app",
+  "domainNote": "Vercel project domain for Costumes N More. This address currently returns 404, so the project must be imported/deployed under this name. Replace with a custom domain later if one is bought.",
   "socials": [
     {
       "id": "instagram",

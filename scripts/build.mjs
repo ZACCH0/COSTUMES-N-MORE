@@ -21,8 +21,8 @@ const statusBanner=`<a class="status-banner ${statusOpen?'':'is-closed'}" href="
 const heroBadge=statusOpen?`<p class="hero-badge" aria-label="Commissions open"><span aria-hidden="true">&#10084;</span> Commissions open</p>`:`<p class="hero-badge is-closed" aria-label="Commissions currently closed"><span aria-hidden="true">&#128062;</span> Commissions closed</p>`;
 const ig=cfg.socials.find(s=>s.id==='instagram');
 const contactLead=statusOpen
-  ?'Tell me about the character or project you have in mind. Fursuits, fursona design, VRChat avatars, VTuber avatars and custom requests are all open.'
-  :'Tell me about the character or project you have in mind. Commission slots are currently closed — follow us on Instagram and check back for the next opening.';
+  ?'Tell us about the character or project you have in mind. Fursuits, fursona design, VRChat avatars, VTuber avatars and custom requests are all open.'
+  :'Tell us about the character or project you have in mind. Commission slots are currently closed — follow us on Instagram and check back for the next opening.';
 const formClosedNote=statusOpen
   ?''
   :`<div class="form-closed" role="status"><h2 class="h2">Commissions are currently closed</h2><p>The commission form is paused right now. Follow us on <a href="${ig?ig.url:'https://www.instagram.com/costumesandmorefursuits'}">Instagram</a> to catch the next opening, or check back soon.</p></div>`;

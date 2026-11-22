@@ -1,8 +1,8 @@
 # COSTUMES N MORE
 
-Custom fursuits, fursona design, and avatars for VRChat and VTubing — made to order by Costumes N More.
+Custom fursuits, fursona design, and avatars for VRChat and VTubing — made to order by the Costumes N More team.
 
-Live site: rebrand in progress — not yet redeployed. Previous live site: https://velvet-howl.vercel.app/
+Live site: https://costumesandmorefursuits.vercel.app/ (the Vercel project must be deployed under this name)
 
 ## About the business
 
@@ -23,7 +23,7 @@ Every character has a story. Costumes N More brings yours to life — custom fur
 **Contact**
 - Instagram: https://www.instagram.com/costumesandmorefursuits
 - Email: tobiloba3214@gmail.com
-- Discord / Telegram: pending from the owner (previous handles removed in the rebrand)
+- Discord / Telegram: pending from the owner
 
 ## About this repo (for collaborators)
 
